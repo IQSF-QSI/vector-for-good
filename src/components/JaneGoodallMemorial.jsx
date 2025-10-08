@@ -50,173 +50,144 @@ const JaneGoodallMemorial = () => {
     },
     {
       icon: Globe,
-      title: "Global Compassion",
-      description: "Her worldwide conservation efforts inspire our global mission to create safe spaces for all people, regardless of who they love or how they identify.",
+      title: "Global Conservation",
+      description: "Jane's worldwide conservation efforts inspire our global mission to create safe spaces and protect LGBTQ+ communities across all continents.",
       color: "from-blue-500 to-cyan-600"
     },
     {
       icon: Users,
-      title: "Community Building",
-      description: "Jane's Roots & Shoots program empowered young people globally. IQSF empowers LGBTQ+ communities with knowledge, resources, and solidarity.",
+      title: "Community Empowerment",
+      description: "Her work empowering local communities mirrors our commitment to empowering LGBTQ+ communities with the tools and knowledge they need to stay safe.",
       color: "from-purple-500 to-pink-600"
     },
     {
-      icon: TreePine,
-      title: "Sustainable Future",
-      description: "Her environmental legacy guides our commitment to building sustainable, inclusive communities where everyone can thrive authentically.",
-      color: "from-orange-500 to-red-600"
+      icon: Heart,
+      title: "Compassionate Action",
+      description: "Jane's compassionate approach to all living beings guides our empathetic, human-centered approach to safety intelligence and community support.",
+      color: "from-red-500 to-rose-600"
     }
   ];
 
-  const milestones = [
+  const lifeJourney = [
+    {
+      year: "1934",
+      title: "Born in London",
+      description: "Valerie Jane Morris-Goodall was born on April 3, 1934, in London, England, beginning a life that would change our understanding of the natural world."
+    },
     {
       year: "1960",
-      title: "Gombe Journey Begins",
-      description: "At 26, Jane arrived in what is now Tanzania to study chimpanzees, beginning a revolutionary approach to animal research.",
-      impact: "Showed the world that animals have personalities, emotions, and complex social structures."
+      title: "Journey to Gombe",
+      description: "At age 26, Jane arrived at what is now Gombe Stream National Park in Tanzania to study chimpanzees, beginning her groundbreaking research."
+    },
+    {
+      year: "1960s",
+      title: "Revolutionary Discoveries",
+      description: "Jane observed chimpanzees making and using tools, fundamentally changing our understanding of what makes humans unique."
     },
     {
       year: "1977",
-      title: "Jane Goodall Institute Founded",
-      description: "Established to continue research and conservation work while supporting local communities.",
-      impact: "Created sustainable conservation programs that protect both wildlife and human communities."
+      title: "Founded Jane Goodall Institute",
+      description: "Established the Jane Goodall Institute to continue research and conservation work, expanding her impact globally."
     },
     {
       year: "1991",
-      title: "Roots & Shoots Launched",
-      description: "Youth program empowering young people to become environmental stewards and compassionate leaders.",
-      impact: "Inspired millions of young people worldwide to take action for people, animals, and the environment."
+      title: "Roots & Shoots Program",
+      description: "Launched the youth program that now operates in over 65 countries, empowering young people to become environmental stewards."
     },
     {
       year: "2002",
       title: "UN Messenger of Peace",
-      description: "Appointed by Kofi Annan to spread messages of hope and environmental awareness globally.",
-      impact: "Elevated conservation and compassion to the highest levels of international diplomacy."
+      description: "Appointed as a UN Messenger of Peace, recognizing her global influence in conservation and humanitarian work."
+    },
+    {
+      year: "2024",
+      title: "Eternal Legacy",
+      description: "Dr. Jane Goodall passed away peacefully, leaving behind an unparalleled legacy of compassion, scientific discovery, and hope for our planet's future."
     }
   ];
 
-  const personalMessage = {
-    title: "A Personal Thank You",
-    content: `Dr. Jane Goodall, your extraordinary life has been a beacon of hope and inspiration for all of us at Vector for Good and the International Queer Safety Foundation. Your revolutionary approach to understanding and protecting our fellow beings on this planet has shaped our own mission to protect and empower LGBTQ+ communities worldwide.
-
-    When you first ventured into Gombe at just 26 years old, you didn't just study chimpanzees—you showed the world how to see the individual worth and dignity in every living being. This profound respect for individuality, for the unique value of each life, is at the very heart of our work protecting LGBTQ+ individuals around the globe.
-
-    Your famous words, "Every individual matters. Every individual has a role to play. Every individual makes a difference," resonate deeply with our mission. Every LGBTQ+ person deserves safety, dignity, and the freedom to live authentically. Every ally has a role in creating inclusive communities. Every act of compassion makes a difference.
-
-    Just as you transformed our understanding of what it means to be human through your work with chimpanzees, we strive to transform how the world sees and protects LGBTQ+ individuals. Your legacy of patient observation, deep empathy, and unwavering commitment to justice guides us every day.
-
-    Your Roots & Shoots program has empowered millions of young people to become agents of positive change. Similarly, we work to empower LGBTQ+ communities with the tools, knowledge, and support they need to create safer, more inclusive spaces for themselves and future generations.
-
-    Dr. Goodall, though you are no longer with us in person, your spirit lives on in every act of compassion, every effort to protect the vulnerable, and every step toward a more just and inclusive world. Thank you for showing us that one person, armed with patience, courage, and love, can indeed change the world.
-
-    Your legacy continues to inspire everything we do at Vector for Good and IQSF. We carry your torch of hope, your commitment to understanding, and your belief that every individual matters.
-
-    With deepest gratitude and respect,
-    The Vector for Good and IQSF Teams`
-  };
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-red-50">
-      {/* Hero Section */}
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
+      {/* Memorial Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Background Elements */}
+        {/* Background Animation */}
         <div className="absolute inset-0">
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-amber-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob"></div>
-          <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-orange-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-2000"></div>
-          <div className="absolute bottom-1/4 left-1/3 w-96 h-96 bg-red-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-4000"></div>
+          <div className="absolute top-20 left-20 w-96 h-96 bg-green-500 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse"></div>
+          <div className="absolute top-40 right-20 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse animation-delay-2000"></div>
+          <div className="absolute -bottom-8 left-40 w-96 h-96 bg-emerald-500 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse animation-delay-4000"></div>
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className={`transition-all duration-1500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
+          {/* Memorial Portrait */}
+          <div className="mb-12">
+            <div className="relative inline-block">
+              <img 
+                src="/images/jane-goodall-portrait.png" 
+                alt="Dr. Jane Goodall" 
+                className="w-64 h-64 rounded-full mx-auto object-cover border-4 border-white/20 shadow-2xl"
+              />
+              <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+                <Star className="w-4 h-4 text-white" />
+              </div>
+            </div>
+          </div>
+
+          {/* Memorial Title */}
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
+            In Loving Memory of
+          </h1>
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-green-400 via-emerald-400 to-blue-400 bg-clip-text text-transparent mb-8">
+            Dr. Jane Goodall
+          </h2>
+          
+          {/* Life Dates */}
+          <div className="text-2xl md:text-3xl text-gray-300 mb-8 font-light">
+            April 3, 1934 - December 2024
+          </div>
+
+          {/* Memorial Subtitle */}
+          <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
+            Primatologist, Conservationist, and Champion for All Living Beings
+            <br />
+            <span className="text-green-400 font-semibold">Her legacy lives on in every act of compassion and conservation</span>
+          </p>
+
+          {/* Rotating Memorial Quotes */}
+          <div className="bg-black/30 backdrop-blur-sm border border-white/20 rounded-3xl p-8 mb-12 max-w-4xl mx-auto">
+            <Quote className="w-12 h-12 text-green-400 mx-auto mb-6" />
+            <blockquote className="text-2xl md:text-3xl text-white mb-6 italic font-light leading-relaxed">
+              "{inspiringQuotes[currentQuote].text}"
+            </blockquote>
+            <p className="text-green-400 font-medium">
+              {inspiringQuotes[currentQuote].context}
+            </p>
             
-            {/* Memorial Portrait */}
-            <div className="mb-12 flex justify-center">
-              <div className="relative group">
-                <div className="absolute inset-0 bg-gradient-to-r from-amber-400 via-orange-400 to-red-400 rounded-full opacity-20 group-hover:opacity-30 transition-opacity duration-500 blur-xl transform scale-110"></div>
-                <img 
-                  src="/images/jane-goodall-portrait.png" 
-                  alt="Dr. Jane Goodall" 
-                  className="relative h-64 w-64 md:h-80 md:w-80 lg:h-96 lg:w-96 rounded-full object-cover shadow-2xl border-8 border-white/50 backdrop-blur-sm transition-transform duration-500 group-hover:scale-105"
+            {/* Quote Navigation */}
+            <div className="flex justify-center space-x-2 mt-6">
+              {inspiringQuotes.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrentQuote(index)}
+                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                    index === currentQuote ? 'bg-green-400' : 'bg-gray-600'
+                  }`}
                 />
-                <div className="absolute inset-0 rounded-full bg-gradient-to-t from-black/20 to-transparent"></div>
-              </div>
-            </div>
-
-            {/* Memorial Title */}
-            <div className="mb-8">
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-4 leading-tight">
-                <span className="bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 bg-clip-text text-transparent">
-                  Dr. Jane Goodall
-                </span>
-              </h1>
-              <p className="text-2xl md:text-3xl text-gray-700 mb-4 font-light">
-                1934 - 2024
-              </p>
-              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Primatologist, Conservationist, UN Messenger of Peace
-                <br />
-                <span className="text-lg italic">A beacon of hope who showed us that every individual matters</span>
-              </p>
-            </div>
-
-            {/* Floating Quote */}
-            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl max-w-4xl mx-auto mb-12 border border-amber-200">
-              <Quote className="h-12 w-12 text-amber-600 mx-auto mb-6" />
-              <blockquote className="text-xl md:text-2xl text-gray-800 mb-4 leading-relaxed font-light">
-                "{inspiringQuotes[currentQuote].text}"
-              </blockquote>
-              <p className="text-gray-600 italic">
-                {inspiringQuotes[currentQuote].context}
-              </p>
-              
-              {/* Quote Indicators */}
-              <div className="flex justify-center space-x-2 mt-6">
-                {inspiringQuotes.map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setCurrentQuote(index)}
-                    className={`w-3 h-3 rounded-full transition-colors ${
-                      index === currentQuote ? 'bg-amber-600' : 'bg-gray-300'
-                    }`}
-                  />
-                ))}
-              </div>
-            </div>
-
-            {/* Memorial Actions */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="group bg-gradient-to-r from-amber-600 to-orange-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-amber-700 hover:to-orange-700 transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center space-x-3">
-                <Heart className="h-6 w-6" />
-                <span>Share Your Memory</span>
-                <Sparkles className="h-5 w-5 group-hover:rotate-12 transition-transform" />
-              </button>
-              <button 
-                onClick={() => setIsPlaying(!isPlaying)}
-                className="group flex items-center space-x-3 text-gray-600 hover:text-amber-600 transition-colors"
-              >
-                <div className="w-12 h-12 bg-white/80 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow">
-                  {isPlaying ? <Pause className="h-6 w-6 ml-1" /> : <Play className="h-6 w-6 ml-1" />}
-                </div>
-                <span className="text-lg font-medium">
-                  {isPlaying ? 'Pause' : 'Play'} Memorial Video
-                </span>
-              </button>
+              ))}
             </div>
           </div>
         </div>
       </section>
 
-      {/* Legacy Connection Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Legacy Connections to Vector for Good */}
+      <section className="py-20 bg-gradient-to-r from-green-900/20 to-blue-900/20">
+        <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-              Her Legacy Lives On
-              <span className="bg-gradient-to-r from-amber-600 to-red-600 bg-clip-text text-transparent"> In Our Mission</span>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              How Jane's Legacy Inspires Vector for Good
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Dr. Goodall's revolutionary approach to understanding and protecting vulnerable beings 
-              continues to inspire Vector for Good and IQSF's mission to create safety and dignity for all.
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Dr. Goodall's pioneering work in protecting vulnerable beings and empowering communities 
+              directly inspires our mission to protect LGBTQ+ individuals worldwide.
             </p>
           </div>
 
@@ -224,19 +195,12 @@ const JaneGoodallMemorial = () => {
             {legacyConnections.map((connection, index) => {
               const IconComponent = connection.icon;
               return (
-                <div
-                  key={index}
-                  className="group bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 border border-gray-100"
-                >
-                  <div className={`w-16 h-16 bg-gradient-to-r ${connection.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
-                    <IconComponent className="h-8 w-8 text-white" />
+                <div key={index} className="bg-black/30 backdrop-blur-sm border border-white/20 rounded-3xl p-8 hover:bg-black/40 transition-all duration-500 hover:scale-105">
+                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${connection.color} flex items-center justify-center mb-6 mx-auto`}>
+                    <IconComponent className="w-8 h-8 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-amber-600 transition-colors">
-                    {connection.title}
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    {connection.description}
-                  </p>
+                  <h3 className="text-xl font-bold text-white mb-4 text-center">{connection.title}</h3>
+                  <p className="text-gray-300 text-center leading-relaxed">{connection.description}</p>
                 </div>
               );
             })}
@@ -244,40 +208,29 @@ const JaneGoodallMemorial = () => {
         </div>
       </section>
 
-      {/* Life Journey Section */}
-      <section className="py-20 bg-gradient-to-br from-amber-50 to-orange-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Life Journey Timeline */}
+      <section className="py-20">
+        <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-              A Life of
-              <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent"> Extraordinary Impact</span>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              A Life of Extraordinary Impact
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From a young woman with a dream to a global icon of hope and conservation
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              From a young woman with a dream to study animals in Africa to a global icon of conservation and compassion.
             </p>
           </div>
 
-          <div className="relative">
-            {/* Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-amber-400 to-red-400 rounded-full"></div>
-
-            {milestones.map((milestone, index) => (
-              <div key={index} className={`relative flex items-center mb-16 ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
-                {/* Timeline Dot */}
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-gradient-to-r from-amber-500 to-red-500 rounded-full border-4 border-white shadow-lg z-10"></div>
-                
-                {/* Content Card */}
-                <div className={`w-5/12 ${index % 2 === 0 ? 'pr-8' : 'pl-8'}`}>
-                  <div className="bg-white p-8 rounded-2xl shadow-xl border border-amber-100 hover:shadow-2xl transition-shadow">
-                    <div className="text-2xl font-bold text-amber-600 mb-2">{milestone.year}</div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">{milestone.title}</h3>
-                    <p className="text-gray-600 mb-4 leading-relaxed">{milestone.description}</p>
-                    <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-4 rounded-lg border-l-4 border-amber-400">
-                      <p className="text-sm text-gray-700 italic">
-                        <strong>Impact:</strong> {milestone.impact}
-                      </p>
-                    </div>
+          <div className="space-y-8">
+            {lifeJourney.map((milestone, index) => (
+              <div key={index} className="flex flex-col md:flex-row items-center gap-8">
+                <div className="flex-shrink-0">
+                  <div className="w-24 h-24 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 flex items-center justify-center text-white font-bold text-lg">
+                    {milestone.year}
                   </div>
+                </div>
+                <div className="bg-black/30 backdrop-blur-sm border border-white/20 rounded-2xl p-6 flex-1 hover:bg-black/40 transition-all duration-300">
+                  <h3 className="text-2xl font-bold text-white mb-3">{milestone.title}</h3>
+                  <p className="text-gray-300 leading-relaxed">{milestone.description}</p>
                 </div>
               </div>
             ))}
@@ -286,158 +239,132 @@ const JaneGoodallMemorial = () => {
       </section>
 
       {/* Visual Legacy Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 bg-gradient-to-r from-emerald-900/20 to-green-900/20">
+        <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-              A Visual
-              <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent"> Legacy</span>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              Visual Legacy
             </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Images that capture the essence of Dr. Goodall's remarkable life and enduring impact.
+            </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-black/30 backdrop-blur-sm border border-white/20 rounded-3xl p-6 hover:bg-black/40 transition-all duration-500">
               <img 
                 src="/images/jane-goodall-nature.png" 
-                alt="Jane Goodall in nature with chimpanzees" 
-                className="w-full rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow"
+                alt="Jane in Nature" 
+                className="w-full h-64 object-cover rounded-2xl mb-6"
               />
-              <div className="bg-gradient-to-br from-green-50 to-blue-50 p-6 rounded-xl border border-green-200">
-                <p className="text-gray-700 leading-relaxed italic">
-                  "In the forest, I learned that we are not the only beings with personalities, minds, and emotions. 
-                  This understanding changed everything—not just how we see animals, but how we see ourselves and our responsibility to all life."
-                </p>
-              </div>
+              <h3 className="text-xl font-bold text-white mb-3">In Her Element</h3>
+              <p className="text-gray-300">Jane in the forests of Gombe, where she made her groundbreaking discoveries about chimpanzee behavior.</p>
             </div>
 
-            <div className="space-y-8">
+            <div className="bg-black/30 backdrop-blur-sm border border-white/20 rounded-3xl p-6 hover:bg-black/40 transition-all duration-500">
+              <img 
+                src="/images/jane-goodall-portrait.png" 
+                alt="Jane Goodall Portrait" 
+                className="w-full h-64 object-cover rounded-2xl mb-6"
+              />
+              <h3 className="text-xl font-bold text-white mb-3">The Scientist</h3>
+              <p className="text-gray-300">A portrait of the woman who revolutionized our understanding of animal behavior and intelligence.</p>
+            </div>
+
+            <div className="bg-black/30 backdrop-blur-sm border border-white/20 rounded-3xl p-6 hover:bg-black/40 transition-all duration-500">
               <img 
                 src="/images/jane-goodall-legacy.png" 
-                alt="Jane Goodall's continuing legacy" 
-                className="w-full rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow"
+                alt="Jane's Legacy" 
+                className="w-full h-64 object-cover rounded-2xl mb-6"
               />
-              <div className="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-xl border border-orange-200">
-                <p className="text-gray-700 leading-relaxed italic">
-                  "Her legacy grows like the great tree in this image—providing shelter, strength, and hope for all who seek safety and understanding. 
-                  From the roots of compassion springs the branches of justice, protection, and love."
-                </p>
-              </div>
+              <h3 className="text-xl font-bold text-white mb-3">Enduring Legacy</h3>
+              <p className="text-gray-300">Her work continues to inspire new generations of conservationists and advocates worldwide.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Founder's Personal Tribute Section */}
-      <section className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white/95 backdrop-blur-sm p-12 rounded-3xl shadow-2xl border border-indigo-200 relative overflow-hidden">
-            {/* Background decoration */}
-            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-indigo-200 to-purple-200 rounded-full opacity-20 transform translate-x-16 -translate-y-16"></div>
-            <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-pink-200 to-purple-200 rounded-full opacity-20 transform -translate-x-12 translate-y-12"></div>
-            
-            <div className="relative z-10">
-              <div className="text-center mb-12">
-                <div className="flex items-center justify-center mb-6">
-                  <Star className="h-8 w-8 text-indigo-500 mr-3" />
-                  <Heart className="h-12 w-12 text-red-500" />
-                  <Star className="h-8 w-8 text-indigo-500 ml-3" />
-                </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                  Founder's Tribute
-                </h2>
-                <div className="w-24 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mx-auto rounded-full"></div>
-              </div>
-
-              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-2xl border border-indigo-100 mb-8">
-                <Quote className="h-10 w-10 text-indigo-600 mb-6" />
-                <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed">
-                  <p className="mb-6 text-lg italic">
-                    "Jane Goodall is more than a global icon—she is my childhood hero. Her courage and wisdom shaped my understanding of compassion, advocacy, and what it means to make a difference. Jane has personally influenced the course of my life, inspiring me to pursue causes that protect the vulnerable and empower change.
-                  </p>
-                  <p className="mb-6 text-lg italic">
-                    Through her work, I learned that hope is powerful, empathy is revolutionary, and our dedication to justice must include every voice and life. Her legacy lives in my resolve and in the very foundation of IQSF and Vector For Good.
-                  </p>
-                  <p className="mb-6 text-lg italic font-semibold">
-                    Thank you, Dame Jane, for showing me—and countless others—that every small action counts, and that dreams truly can change the world."
-                  </p>
-                </div>
-              </div>
-
-              {/* Founder signature */}
-              <div className="text-center">
-                <div className="inline-block bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                  <div className="text-xl font-bold text-gray-900 mb-2">— Levi Hankins</div>
-                  <div className="text-gray-600 space-y-1">
-                    <div className="font-semibold">Founder & CEO</div>
-                    <div className="text-sm">IQSF (International Queer Safety Foundation 501c3)</div>
-                    <div className="text-sm">Vector For Good PBC (Delaware, USA)</div>
-                    <div className="text-sm">Vector For Good Ou (Estonia)</div>
-                    <div className="text-sm">Future Vector For Good GmbH (Berlin, Germany)</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-12 flex items-center justify-center space-x-8">
-                <img src="/images/EEF96F90-7D62-411E-92B2-8B4BF5630EF7.png" alt="Vector for Good" className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity" />
-                <div className="w-px h-16 bg-gray-300"></div>
-                <img src="/images/C3691AE0-2049-405A-A6E3-02957326D903(5).png" alt="IQSF" className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team Message Section */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-red-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white/90 backdrop-blur-sm p-12 rounded-3xl shadow-2xl border border-purple-200">
-            <div className="text-center mb-12">
-              <Heart className="h-16 w-16 text-red-500 mx-auto mb-6" />
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                A Message from Our Team
+      {/* Founder's Personal Memorial Tribute */}
+      <section className="py-20 bg-gradient-to-r from-purple-900/20 to-blue-900/20">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-black/40 backdrop-blur-sm border border-white/20 rounded-3xl p-12">
+            <div className="text-center mb-8">
+              <Heart className="w-16 h-16 text-red-400 mx-auto mb-6" />
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Founder's Memorial Tribute
               </h2>
-              <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full"></div>
             </div>
-
-            <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
-              {personalMessage.content.split('\n\n').map((paragraph, index) => (
-                <p key={index} className="mb-6 text-justify">
-                  {paragraph.trim()}
-                </p>
-              ))}
-            </div>
-
-            <div className="mt-12 text-center">
-              <div className="text-lg font-semibold text-gray-800 mb-2">
-                With deepest gratitude and respect,
-              </div>
-              <div className="text-gray-600">
-                The Vector for Good and IQSF Teams
+            
+            <blockquote className="text-lg md:text-xl text-gray-300 leading-relaxed mb-8 italic">
+              "Jane Goodall was more than a global icon—she was my childhood hero. Her courage and wisdom shaped my understanding of compassion, advocacy, and what it means to make a difference. Jane personally influenced the course of my life, inspiring me to pursue causes that protect the vulnerable and empower change.
+              <br /><br />
+              Through her work, I learned that hope is powerful, empathy is revolutionary, and our dedication to justice must include every voice and life. Her legacy lives in my resolve and in the very foundation of IQSF and Vector For Good.
+              <br /><br />
+              Though she has left us, her spirit continues to guide every decision we make, every person we protect, and every community we serve. Thank you, Dame Jane, for showing me—and countless others—that every small action counts, and that dreams truly can change the world. Your legacy of compassion will live on forever."
+            </blockquote>
+            
+            <div className="text-center">
+              <div className="text-white font-semibold text-lg mb-2">— Levi Hankins</div>
+              <div className="text-gray-400 space-y-1">
+                <div>Founder & CEO</div>
+                <div>IQSF (International Queer Safety Foundation 501c3)</div>
+                <div>Vector For Good PBC (Delaware, USA)</div>
+                <div>Vector For Good Ou (Estonia)</div>
+                <div>Future Vector For Good GmbH (Berlin, Germany)</div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-amber-600 via-orange-600 to-red-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
+      {/* Team Memorial Message */}
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <div className="bg-black/30 backdrop-blur-sm border border-white/20 rounded-3xl p-12">
+            <Sparkles className="w-16 h-16 text-yellow-400 mx-auto mb-8" />
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
+              From All of Us at Vector for Good
+            </h2>
+            <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-8">
+              Dr. Jane Goodall's passing marks the end of an era, but her legacy of compassion, scientific rigor, and unwavering hope continues to inspire our work every day. She showed us that understanding leads to caring, caring leads to action, and action can change the world.
+              <br /><br />
+              At Vector for Good, we carry forward her mission of protecting the vulnerable and building bridges of understanding. Every safety report we generate, every community we protect, and every life we help save is a testament to the values she embodied.
+              <br /><br />
+              Rest in peace, Dr. Goodall. Your legacy lives on in every act of kindness, every moment of protection, and every step toward a more compassionate world.
+            </p>
+            <div className="flex justify-center items-center space-x-4">
+              <img src="/images/vector-logo-hero.png" alt="Vector for Good" className="h-12 w-auto" />
+              <span className="text-2xl text-white">+</span>
+              <img src="/images/iqsf-logo.png" alt="IQSF" className="h-12 w-auto" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action - Continue Her Legacy */}
+      <section className="py-20 bg-gradient-to-r from-green-900/50 to-emerald-900/50">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
             Continue Her Legacy
           </h2>
-          <p className="text-xl text-amber-100 mb-12 max-w-2xl mx-auto">
-            Honor Dr. Goodall's memory by taking action to protect and empower vulnerable communities worldwide.
+          <p className="text-xl text-gray-300 mb-12">
+            Honor Dr. Goodall's memory by joining our mission to protect and empower LGBTQ+ communities worldwide. 
+            Every action, no matter how small, makes a difference.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-orange-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-gray-50 transition-colors transform hover:scale-105 shadow-xl flex items-center justify-center space-x-3">
-              <Shield className="h-6 w-6" />
-              <span>Support LGBTQ+ Safety</span>
-            </button>
-            <button className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white hover:text-orange-600 transition-colors transform hover:scale-105 flex items-center justify-center space-x-3">
-              <Globe className="h-6 w-6" />
-              <span>Join Our Mission</span>
-              <ArrowRight className="h-5 w-5" />
-            </button>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            <a 
+              href="/qsi-map" 
+              className="bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-green-500/50 transition-all duration-300 hover:scale-105 flex items-center justify-center"
+            >
+              Explore Safety Intelligence
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </a>
+            <a 
+              href="/contact" 
+              className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-2xl text-lg font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
+            >
+              Join Our Mission
+            </a>
           </div>
         </div>
       </section>
