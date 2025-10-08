@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MinimalLayout from './components/MinimalLayout';
-import StunningHomePage from './components/StunningHomePage';
+import AssetIntegratedHomePage from './components/AssetIntegratedHomePage';
 import ContactPage from './components/ContactPage';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import TermsOfServicePage from './components/TermsOfServicePage';
@@ -22,7 +22,7 @@ function App() {
     <Router>
       <MinimalLayout>
         <Routes>
-          <Route path="/" element={<StunningHomePage />} />
+          <Route path="/" element={<AssetIntegratedHomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/iqsf-partnership" element={<IQSFPartnershipPage />} />
           <Route path="/contact" element={<ContactPage />} />
