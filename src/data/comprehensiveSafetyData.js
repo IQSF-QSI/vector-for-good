@@ -202,6 +202,42 @@ export const globalSafetyData = {
       ]
     },
     {
+      country: "Germany",
+      equalityIndex: 73,
+      legalIndex: 78,
+      publicOpinion: 68,
+      safetyRating: "Good",
+      cities: [
+        {
+          name: "Berlin",
+          coordinates: [52.5200, 13.4050],
+          safetyScore: 82,
+          description: "Progressive capital with vibrant LGBTQ+ scene and strong legal protections",
+          highlights: ["Schöneberg LGBTQ+ district", "Marriage equality", "Strong anti-discrimination laws", "Vibrant nightlife"],
+          resources: ["Berlin Pride (CSD)", "LGBTQ+ community centers", "Schwulenberatung Berlin", "Mann-O-Meter"],
+          concerns: ["Some areas less accepting", "Occasional hate incidents"]
+        }
+      ]
+    },
+    {
+      country: "Estonia",
+      equalityIndex: 61,
+      legalIndex: 65,
+      publicOpinion: 57,
+      safetyRating: "Good",
+      cities: [
+        {
+          name: "Tallinn",
+          coordinates: [59.4370, 24.7536],
+          safetyScore: 75,
+          description: "Digital-forward Baltic capital with growing LGBTQ+ acceptance",
+          highlights: ["Civil unions recognized", "EU protections", "Tech-friendly environment", "Growing acceptance"],
+          resources: ["Estonian LGBT Association", "Tallinn Pride", "Support organizations"],
+          concerns: ["Traditional attitudes in some areas", "Limited rural acceptance"]
+        }
+      ]
+    },
+    {
       country: "United States",
       equalityIndex: 71,
       legalIndex: 85,
@@ -231,6 +267,51 @@ export const globalSafetyData = {
           description: "Progressive Pacific Northwest city",
           highlights: ["Capitol Hill LGBTQ+ district", "Strong state protections"],
           resources: ["Seattle Pride", "LGBTQ+ organizations", "Support services"]
+        },
+        {
+          name: "Las Vegas",
+          coordinates: [36.1699, -115.1398],
+          safetyScore: 78,
+          description: "Entertainment capital with growing LGBTQ+ acceptance",
+          highlights: ["The Fruit Loop LGBTQ+ district", "Nevada state protections", "Entertainment industry acceptance"],
+          resources: ["Las Vegas Pride", "The Center Las Vegas", "LGBTQ+ nightlife venues"],
+          concerns: ["Conservative areas outside city", "Tourism-focused acceptance"]
+        },
+        {
+          name: "Des Moines",
+          coordinates: [41.5868, -93.6250],
+          safetyScore: 72,
+          description: "Iowa capital with progressive policies and growing acceptance",
+          highlights: ["Iowa marriage equality pioneer (2009)", "State anti-discrimination laws", "Growing LGBTQ+ community"],
+          resources: ["Capital City Pride", "Iowa Safe Schools", "LGBTQ+ community organizations"],
+          concerns: ["Rural Iowa less accepting", "Political climate variations"]
+        },
+        {
+          name: "Omaha",
+          coordinates: [41.2565, -95.9345],
+          safetyScore: 68,
+          description: "Nebraska's largest city with moderate LGBTQ+ acceptance",
+          highlights: ["City non-discrimination ordinances", "Growing business support", "University presence"],
+          resources: ["Omaha Pride", "LGBTQ+ community center", "Support groups"],
+          concerns: ["Conservative state politics", "Limited statewide protections", "Rural areas less accepting"]
+        },
+        {
+          name: "St. Louis",
+          coordinates: [38.6270, -90.1994],
+          safetyScore: 70,
+          description: "Missouri city with established LGBTQ+ community and mixed acceptance",
+          highlights: ["The Grove LGBTQ+ district", "City anti-discrimination laws", "Historic LGBTQ+ community"],
+          resources: ["St. Louis Pride", "PROMO (statewide LGBTQ+ advocacy)", "Community centers"],
+          concerns: ["Conservative state politics", "Limited statewide protections", "Rural Missouri challenges"]
+        },
+        {
+          name: "Tuscaloosa",
+          coordinates: [33.2098, -87.5692],
+          safetyScore: 58,
+          description: "Alabama college town with university-driven acceptance but state-level challenges",
+          highlights: ["University of Alabama presence", "College town atmosphere", "Some local business support"],
+          resources: ["University LGBTQ+ groups", "Student organizations", "Limited local resources"],
+          concerns: ["Conservative state laws", "Limited legal protections", "Rural Alabama hostility", "Religious conservatism"]
         }
       ]
     }
