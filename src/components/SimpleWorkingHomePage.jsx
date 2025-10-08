@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { HomePageSEO } from './SEOHead';
 
 const SimpleWorkingHomePage = () => {
   const [message, setMessage] = useState('');
@@ -41,7 +42,9 @@ const SimpleWorkingHomePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900">
+    <>
+      <HomePageSEO />
+      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-pink-900">
       {/* Navigation */}
       <nav className="bg-black/20 backdrop-blur-sm border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -242,6 +245,7 @@ const SimpleWorkingHomePage = () => {
         </div>
       </footer>
     </div>
+    </>
   );
 };
 

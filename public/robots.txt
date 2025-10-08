@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /
+
+# Priority pages for crawling
+Allow: /qsi-map
+Allow: /queer-intelligence
+Allow: /ai-agents
+Allow: /jane-goodall-memorial
+Allow: /enterprise
+Allow: /contact
+
+# Block admin or sensitive areas (if any)
+Disallow: /admin/
+Disallow: /.env
+Disallow: /api/keys/
+
+# Sitemap location
+Sitemap: https://vector-for-good.vercel.app/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
+
+# Specific instructions for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
