@@ -327,14 +327,74 @@ const JaneGoodallMemorial = () => {
         </div>
       </section>
 
-      {/* Personal Message Section */}
+      {/* Founder's Personal Tribute Section */}
+      <section className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white/95 backdrop-blur-sm p-12 rounded-3xl shadow-2xl border border-indigo-200 relative overflow-hidden">
+            {/* Background decoration */}
+            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-indigo-200 to-purple-200 rounded-full opacity-20 transform translate-x-16 -translate-y-16"></div>
+            <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-pink-200 to-purple-200 rounded-full opacity-20 transform -translate-x-12 translate-y-12"></div>
+            
+            <div className="relative z-10">
+              <div className="text-center mb-12">
+                <div className="flex items-center justify-center mb-6">
+                  <Star className="h-8 w-8 text-indigo-500 mr-3" />
+                  <Heart className="h-12 w-12 text-red-500" />
+                  <Star className="h-8 w-8 text-indigo-500 ml-3" />
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                  Founder's Tribute
+                </h2>
+                <div className="w-24 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mx-auto rounded-full"></div>
+              </div>
+
+              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-2xl border border-indigo-100 mb-8">
+                <Quote className="h-10 w-10 text-indigo-600 mb-6" />
+                <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed">
+                  <p className="mb-6 text-lg italic">
+                    "Jane Goodall is more than a global icon—she is my childhood hero. Her courage and wisdom shaped my understanding of compassion, advocacy, and what it means to make a difference. Jane has personally influenced the course of my life, inspiring me to pursue causes that protect the vulnerable and empower change.
+                  </p>
+                  <p className="mb-6 text-lg italic">
+                    Through her work, I learned that hope is powerful, empathy is revolutionary, and our dedication to justice must include every voice and life. Her legacy lives in my resolve and in the very foundation of IQSF and Vector For Good.
+                  </p>
+                  <p className="mb-6 text-lg italic font-semibold">
+                    Thank you, Dame Jane, for showing me—and countless others—that every small action counts, and that dreams truly can change the world."
+                  </p>
+                </div>
+              </div>
+
+              {/* Founder signature */}
+              <div className="text-center">
+                <div className="inline-block bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+                  <div className="text-xl font-bold text-gray-900 mb-2">— Levi Hankins</div>
+                  <div className="text-gray-600 space-y-1">
+                    <div className="font-semibold">Founder & CEO</div>
+                    <div className="text-sm">IQSF (International Queer Safety Foundation 501c3)</div>
+                    <div className="text-sm">Vector For Good PBC (Delaware, USA)</div>
+                    <div className="text-sm">Vector For Good Ou (Estonia)</div>
+                    <div className="text-sm">Future Vector For Good GmbH (Berlin, Germany)</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-12 flex items-center justify-center space-x-8">
+                <img src="/images/EEF96F90-7D62-411E-92B2-8B4BF5630EF7.png" alt="Vector for Good" className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+                <div className="w-px h-16 bg-gray-300"></div>
+                <img src="/images/C3691AE0-2049-405A-A6E3-02957326D903(5).png" alt="IQSF" className="h-16 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Message Section */}
       <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-red-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white/90 backdrop-blur-sm p-12 rounded-3xl shadow-2xl border border-purple-200">
             <div className="text-center mb-12">
               <Heart className="h-16 w-16 text-red-500 mx-auto mb-6" />
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                {personalMessage.title}
+                A Message from Our Team
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full"></div>
             </div>
@@ -347,10 +407,13 @@ const JaneGoodallMemorial = () => {
               ))}
             </div>
 
-            <div className="mt-12 flex items-center justify-center space-x-6">
-              <img src="/images/vector-logo-alt.png" alt="Vector for Good" className="h-12 w-auto" />
-              <div className="w-px h-12 bg-gray-300"></div>
-              <img src="/images/iqsf-logo.png" alt="IQSF" className="h-12 w-auto" />
+            <div className="mt-12 text-center">
+              <div className="text-lg font-semibold text-gray-800 mb-2">
+                With deepest gratitude and respect,
+              </div>
+              <div className="text-gray-600">
+                The Vector for Good and IQSF Teams
+              </div>
             </div>
           </div>
         </div>
