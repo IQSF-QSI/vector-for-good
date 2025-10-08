@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ModernLayout from './components/ModernLayout';
-import ModernHomePage from './components/ModernHomePage';
+import MinimalLayout from './components/MinimalLayout';
+import StunningHomePage from './components/StunningHomePage';
 import ContactPage from './components/ContactPage';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import TermsOfServicePage from './components/TermsOfServicePage';
@@ -20,9 +20,9 @@ import './index.css';
 function App() {
   return (
     <Router>
-      <ModernLayout>
+      <MinimalLayout>
         <Routes>
-          <Route path="/" element={<ModernHomePage />} />
+          <Route path="/" element={<StunningHomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/iqsf-partnership" element={<IQSFPartnershipPage />} />
           <Route path="/contact" element={<ContactPage />} />
@@ -36,7 +36,7 @@ function App() {
           <Route path="/careers" element={<CareersPage />} />
           <Route path="/resources" element={<ResourcesPage />} />
         </Routes>
-      </ModernLayout>
+      </MinimalLayout>
     </Router>
   );
 }
