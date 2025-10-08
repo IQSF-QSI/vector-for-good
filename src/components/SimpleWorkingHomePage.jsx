@@ -63,8 +63,9 @@ const SimpleWorkingHomePage = () => {
             <div className="hidden md:block">
               <div className="flex items-center space-x-8">
                 <a href="/qsi-map" className="text-white hover:text-blue-300 transition-colors">QSi Map</a>
-                <a href="/ai-agents" className="text-white hover:text-blue-300 transition-colors">AI Agents</a>
-                <a href="/jane-goodall-memorial" className="text-white hover:text-blue-300 transition-colors">Jane Goodall</a>
+                <a href="/ai-agents" className="text-white hover:text-purple-300 transition-colors">AI Agents</a>
+            <a href="/queer-intelligence" className="text-white hover:text-purple-300 transition-colors">Queer Intelligence</a>
+            <a href="/jane-goodall-memorial" className="text-white hover:text-purple-300 transition-colors">Jane Goodall</a>
                 <a href="/enterprise" className="text-white hover:text-blue-300 transition-colors">Enterprise</a>
                 <a href="/contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">Contact</a>
               </div>

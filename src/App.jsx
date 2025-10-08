@@ -13,6 +13,7 @@ import JaneGoodallMemorial from './components/JaneGoodallMemorial';
 import EnterprisePage from './components/EnterprisePage';
 import CareersPage from './components/CareersPage';
 import ResourcesPage from './components/ResourcesPage';
+import QueerIntelligencePage from './components/QueerIntelligencePage';
 import './index.css';
 
 // Main App Component
@@ -33,6 +34,7 @@ function App() {
         <Route path="/enterprise" element={<EnterprisePage />} />
         <Route path="/careers" element={<CareersPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
+        <Route path="/queer-intelligence" element={<QueerIntelligencePage />} />
       </Routes>
     </Router>
   );
