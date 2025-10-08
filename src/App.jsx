@@ -14,6 +14,7 @@ import EnterprisePage from './components/EnterprisePage';
 import CareersPage from './components/CareersPage';
 import ResourcesPage from './components/ResourcesPage';
 import QueerIntelligencePage from './components/QueerIntelligencePage';
+import QSiDataGenerationPanel from './components/QSiDataGenerationPanel';
 import './index.css';
 
 // Main App Component
@@ -35,6 +36,7 @@ function App() {
         <Route path="/careers" element={<CareersPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/queer-intelligence" element={<QueerIntelligencePage />} />
+        <Route path="/qsi-generation" element={<QSiDataGenerationPanel />} />
       </Routes>
     </Router>
   );
