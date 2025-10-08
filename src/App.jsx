@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MinimalLayout from './components/MinimalLayout';
-import AssetIntegratedHomePage from './components/AssetIntegratedHomePage';
+import SimpleWorkingHomePage from './components/SimpleWorkingHomePage';
 import ContactPage from './components/ContactPage';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import TermsOfServicePage from './components/TermsOfServicePage';
@@ -20,23 +19,21 @@ import './index.css';
 function App() {
   return (
     <Router>
-      <MinimalLayout>
-        <Routes>
-          <Route path="/" element={<AssetIntegratedHomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/iqsf-partnership" element={<IQSFPartnershipPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/privacy" element={<PrivacyPolicyPage />} />
-          <Route path="/terms" element={<TermsOfServicePage />} />
-          <Route path="/qsi-map" element={<QSiMapPage />} />
-          <Route path="/zk-demo" element={<ZKDemoPage />} />
-          <Route path="/ai-agents" element={<EnhancedAIAgentsPage />} />
-          <Route path="/jane-goodall-memorial" element={<JaneGoodallMemorial />} />
-          <Route path="/enterprise" element={<EnterprisePage />} />
-          <Route path="/careers" element={<CareersPage />} />
-          <Route path="/resources" element={<ResourcesPage />} />
-        </Routes>
-      </MinimalLayout>
+      <Routes>
+        <Route path="/" element={<SimpleWorkingHomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/iqsf-partnership" element={<IQSFPartnershipPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/privacy" element={<PrivacyPolicyPage />} />
+        <Route path="/terms" element={<TermsOfServicePage />} />
+        <Route path="/qsi-map" element={<QSiMapPage />} />
+        <Route path="/zk-demo" element={<ZKDemoPage />} />
+        <Route path="/ai-agents" element={<EnhancedAIAgentsPage />} />
+        <Route path="/jane-goodall-memorial" element={<JaneGoodallMemorial />} />
+        <Route path="/enterprise" element={<EnterprisePage />} />
+        <Route path="/careers" element={<CareersPage />} />
+        <Route path="/resources" element={<ResourcesPage />} />
+      </Routes>
     </Router>
   );
 }
