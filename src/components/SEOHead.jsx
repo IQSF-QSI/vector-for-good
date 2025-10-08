@@ -120,3 +120,4 @@ export const ContactSEO = () => (
 );
 
 export default SEOHead;
+// SEO fix
