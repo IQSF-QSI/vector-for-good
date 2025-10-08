@@ -11,6 +11,9 @@ import EnhancedAIAgentsPage from './components/EnhancedAIAgentsPage';
 import AboutPage from './components/AboutPage';
 import IQSFPartnershipPage from './components/IQSFPartnershipPage';
 import JaneGoodallMemorial from './components/JaneGoodallMemorial';
+import EnterprisePage from './components/EnterprisePage';
+import CareersPage from './components/CareersPage';
+import ResourcesPage from './components/ResourcesPage';
 import './index.css';
 
 // Main App Component
@@ -29,6 +32,9 @@ function App() {
           <Route path="/zk-demo" element={<ZKDemoPage />} />
           <Route path="/ai-agents" element={<EnhancedAIAgentsPage />} />
           <Route path="/jane-goodall-memorial" element={<JaneGoodallMemorial />} />
+          <Route path="/enterprise" element={<EnterprisePage />} />
+          <Route path="/careers" element={<CareersPage />} />
+          <Route path="/resources" element={<ResourcesPage />} />
         </Routes>
       </Layout>
     </Router>

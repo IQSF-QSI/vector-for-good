@@ -17,12 +17,12 @@ const Layout = ({ children }) => {
 
   const navItems = [
     { name: 'About', href: '/about', icon: Users },
-    { name: 'IQSF Partnership', href: '/iqsf-partnership', icon: Globe },
+    { name: 'Enterprise', href: '/enterprise', icon: Scale },
     { name: 'QSi Map', href: '/qsi-map', icon: MapPin },
-    { name: 'ZK Demo', href: '/zk-demo', icon: Shield },
-    { name: 'AI Agent Teams', href: '/ai-agents', icon: Brain },
-    { name: 'Jane Goodall Memorial', href: '/jane-goodall-memorial', icon: Heart },
-    { name: 'Contact', href: '/contact', icon: ExternalLink }
+    { name: 'AI Agents', href: '/ai-agents', icon: Brain },
+    { name: 'Resources', href: '/resources', icon: ExternalLink },
+    { name: 'Careers', href: '/careers', icon: Heart },
+    { name: 'Contact', href: '/contact', icon: Zap }
   ];
 
   const socialLinks = [

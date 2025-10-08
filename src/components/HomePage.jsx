@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Shield, Globe, Brain, MapPin, Users, Zap, Star, CheckCircle, ExternalLink, Play, Sparkles } from 'lucide-react';
+import NVIDIAInceptionShowcase from './NVIDIAInceptionShowcase';
 import './LogoFix.css';
 
 const HomePage = () => {
@@ -325,29 +326,33 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* NVIDIA Inception Showcase */}
+      <NVIDIAInceptionShowcase />
+
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
+      <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            Ready to Experience the Future of Safety?
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+            Ready to Protect What Matters Most?
           </h2>
-          <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto">
-            Join thousands of users who trust Vector for Good to keep them safe while protecting their privacy.
+          <p className="text-xl mb-8 opacity-90">
+            Join thousands of organizations worldwide who trust Vector for Good 
+            to keep their communities safe with zero-knowledge privacy protection.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
+            <Link 
               to="/qsi-map"
-              className="bg-white text-blue-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-gray-50 transition-colors transform hover:scale-105 shadow-xl flex items-center justify-center space-x-3"
+              className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center space-x-2"
             >
-              <MapPin className="h-6 w-6" />
-              <span>Start Exploring</span>
+              <MapPin className="h-5 w-5" />
+              <span>Explore QSi Map</span>
             </Link>
-            <Link
+            <Link 
               to="/contact"
-              className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors transform hover:scale-105 flex items-center justify-center space-x-3"
+              className="border border-white/30 hover:bg-white/10 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center space-x-2"
             >
-              <Zap className="h-6 w-6" />
-              <span>Request Enterprise Demo</span>
+              <ArrowRight className="h-5 w-5" />
+              <span>Get Started Today</span>
             </Link>
           </div>
         </div>
