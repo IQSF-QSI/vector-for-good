@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
                 <img 
                   src="/images/vector-logo-hero.png" 
                   alt="Vector for Good" 
-                  className="h-12 w-auto transition-transform group-hover:scale-105"
+                  className="h-8 w-auto max-w-[80px] sm:h-10 sm:max-w-[100px] transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </div>
