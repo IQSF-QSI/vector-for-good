@@ -121,12 +121,15 @@ const JaneGoodallMemorial = () => {
           {/* Memorial Portrait */}
           <div className="mb-12">
             <div className="relative inline-block">
-              <img 
-                src="/images/jane-goodall-portrait.png" 
-                alt="Dr. Jane Goodall" 
-                className="w-64 h-64 rounded-full mx-auto object-cover border-4 border-white/20 shadow-2xl"
-              />
-              <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+              <div className="w-64 h-64 rounded-full mx-auto border-4 border-white/20 shadow-2xl overflow-hidden bg-gradient-to-br from-green-100 to-emerald-200">
+                <img 
+                  src="/images/jane-goodall-portrait.png" 
+                  alt="Dr. Jane Goodall" 
+                  className="w-full h-full object-cover object-center scale-110 hover:scale-125 transition-transform duration-500"
+                  style={{ objectPosition: 'center 20%' }}
+                />
+              </div>
+              <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg">
                 <Star className="w-4 h-4 text-white" />
               </div>
             </div>
